@@ -16,9 +16,9 @@ import { SettingsComponent } from './components/settings/settings.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
-  { path: '', component: DashboardComponent },
-  { path: 'register', component: RegisterComponent },
-  { path: 'login', component: LoginComponent }
+  {path:'', component:DashboardComponent},
+  {path:'register', component:RegisterComponent},
+  {path:'login', component:LoginComponent}
 ];
 
 @NgModule({
